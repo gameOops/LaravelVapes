@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/*
+Custom Css
+*/
+body {
+    font-family: 'Montserrat', sans-serif!important;
+}
+.card_item {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_name >p{
+    font-weight: 400!important;
+    font-size: 27px!important;
+}
+.product_image >img {
+    width: 350px;
+    height: 350px;
+}
+.product_image {
+    display: flex;
+    align-items: center;
+}
+.product_price {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-left: 150px;
+}
+.product_price > p{
+    font-size: 26px!important;
+    font-weight: 500!important;
+}
+.product_desc {
+    margin-top: 15px;
+}
+.product {
+    padding: 50px;
+}
+.box {
+    border: 1px solid #ececec;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.card-body > a {
+    font-size: 15px!important;
+}
+.card-body > p {
+    margin-top: 15px!important;
+    font-weight: 500!important;
+}
+.card_item {
+    min-height: 250px;
+}
+.card-img-top {
+    max-height: 150px;
+    max-width: 150px;
+}
+.search {
+    height: 50px;
+    font-size: 15px!important;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 1px solid #dfdfdf;
+}
+.search_btn {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.search_btn:after {
+    content: "";
+    width: 64px;
+    height: 32px;
+    background-image: url(https://www.clipartmax.com/png/full/343-3432640_google-clipart-search-bar-search-magnifying-glass-png.png);
+    background-size: 21px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: invert(1);
+}
+.sort > a {
+    text-decoration: underline!important;
+    color: #59ab6e!important;
+    margin-left: 8px;
+    font-size: 15px!important;
+}
+.sort > a:hover {
+    cursor: pointer;
+}
